@@ -1,0 +1,25 @@
+<?php include('templates/header.php') ?>
+<?php include('templates/header-nav-no-current.php') ?>
+	<div class="container">		
+		<!-- Row of columns -->
+		<div class="row">
+			<?php include('templates/navigation.php') ?>
+				<!-- Main Content -->
+				<div class="span9">
+							<h2>How-to?</h2>
+							<p>To access your online photos, click the Log in with Facebookâ€ tab on the link bar from the home page.</p>
+							<p>Select one of the options under the Create a Meme tab on the left hand side of the page. Pictures can also be uploaded directly from your computer (.jpg format only) or imported from your Facebook profile. You can use either your own images or your friends images to create a meme.</p>
+							<p>If using a friend image, select their name from the list to browse their albums and photos. If your friend's albums do not show up in the list their privacy settings are keeping them from doing so. If using your own image, your albums will be summoned automatically.</p>
+							<p>Click any image for an enlarged preview then select â€œUse Imageâ€ to create the meme.</p>
+							<p>You will be redirected to a new page where you can:</p>
+							<ul>
+								<li>Enter text</li>
+								<li>Adjusts text size</li>
+								<li>Change font</li>
+							</ul>
+							<p>Click Save Image to publish the meme. All created memes will appear on the All Memes page.</p>
+							<p>There, viewers can share memes with their friends and vote on their favorites.</p>
+							<p>All memes that you have personally created will be listed under the My Memes tab.</p>
+				</div> <!-- end of span9 -->	
+		</div> <!-- end of row -->
+<?php include('templates/footer.php') ?>

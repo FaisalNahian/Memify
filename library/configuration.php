@@ -1,0 +1,1 @@
+<?php $con = mysql_connect('localhost', 'heyfais1_memify', 'f7076636') or die(mysql_error()); $db = mysql_select_db('heyfais1_memify', $con) or die(mysql_error()); ?>
